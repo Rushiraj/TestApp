@@ -18,7 +18,7 @@ class DetailViewController: UIViewController {
         if let detail = detailItem {
             if let label = detailDescriptionLabel {
 
-                label.text = "Production Branch change " + detail.timestamp!.description
+                label.text = "Production Branch change 1.1 " + detail.timestamp!.description
 
             }
         }
